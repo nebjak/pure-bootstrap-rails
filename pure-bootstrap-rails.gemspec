@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = PureBootstrap::Rails::VERSION
   gem.authors       = ["Nebojša Jakovljević"]
   gem.email         = ["nebjak@gmail.com"]
-  gem.description   = %q{Pure Bootstrap Rails is Ruby gem that makes using Bootstrap framework in your rails app easy}
+  gem.description   = %q{Pure Bootstrap Rails is Ruby gem that makes easy using Bootstrap framework in your rails app}
   gem.summary       = %q{Pure Bootstrap for Rails}
-  gem.homepage      = "https://github.com/nebjak/pure-bootstrap-rails"
+  gem.homepage      = "http://nebjak.github.com/pure-bootstrap-rails/"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
