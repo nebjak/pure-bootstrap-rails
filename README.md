@@ -8,7 +8,7 @@ Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and
 
 Add this line to your Rails application's Gemfile:
 
-    gem 'pure-bootstrap-rails'
+    gem 'pure-bootstrap-rails', '~> 2.3.0'
 
 And then execute:
 
@@ -27,6 +27,10 @@ Add this to your `app/assets/javascripts/application.js`:
 and this to your `app/assets/stylesheets/application.css`:
 
     *= require bootstrap/bootstrap
+
+to use responsive features you also need to add this line:
+
+    *= require bootstrap/bootstrap-responsive
 
 ## Contributing
 
